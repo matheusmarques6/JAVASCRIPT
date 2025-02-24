@@ -19,8 +19,8 @@
     <script>
         var n1= window.prompt('Digite um número: ') // é caracteristica do comando prompt retornar uma string
         var n2= window.prompt('Digite outro número: ')
-        var s = Number.parseInt(n1) + Number.parseInt(n2) // da pra colocar logo depois do =
-        window.alert('A soma dos valores é ' + s +' !') 
+        var s = Number(n1) + Number(n2) // da pra colocar logo depois do =
+        window.alert(`A soma dos valores ${n1} e ${n2} é ${s}`) 
         // o + pode servir tanto para adição, quanto pra concatenação
         // number + number = adição
         // string + string = concatenação

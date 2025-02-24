@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de Strings</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome=window.prompt('Qual é seu nome? ')
+        document.write(`Seu nome é <strong>${nome}</strong> com ${nome.length} letras.<br/>`) 
+        document.write(`Seu nome em capslock fica<strong> ${nome.toUpperCase(nome)}</strong> <br/>`)
+        document.write(`Seu nome em ninúsculas é <strong>${nome.toLowerCase()}</strong>`)
+    </script>
+</body>
+</html>
